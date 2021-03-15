@@ -1,3 +1,29 @@
 body {
     display: flex;
-}
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #7B506F;   
+    }
+.container {
+    margin-top: 100px;
+    background-color: #7B506F;
+    }
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #7B506F;
+    }
+.numbers {
+    width: 150%;
+    padding-left: 10px;
+    margin: 20px 0;
+    height: 30px;
+    border-style: none;
+    border-bottom: 1px solid #373D20;
+    background-color: #7B506F;
+    text-align: center;
+    color: #F2E8CF;
+    }
